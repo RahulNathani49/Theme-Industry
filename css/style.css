@@ -17,7 +17,6 @@ body {
 
 .nav {
     width: 100%;
-    height: 65px;
     position: fixed;
     top: 20px;
     z-index: 10;
@@ -40,7 +39,7 @@ body {
 }
 
 .navigation-bar {
-    width: 85%;
+    width: 80%;
     height: 70px;
     background-color: #f3f3f3;
     margin: auto;
@@ -51,7 +50,7 @@ body {
 
 .navigation-logo {
     box-sizing: border-box;
-    padding: 15px 0 0 10px;
+    padding:15px;
     float: left;
     height: 100%;
     width: 20%;
@@ -81,8 +80,6 @@ ul {
     margin: 0 px 0 0;
     font-family: Raleway, sans-serif;
     font-size: 14px;
-    height: 40px;
-    line-height: 40px;
     width: 100px;
     text-align: center;
 }
@@ -92,12 +89,7 @@ ul {
     color: #212331;
 }
 
-.navigation-links ul li:hover {
-    color: blue;
-    background-color: #9bd230;
-    transition: 1s;
-    border-radius: 30px;
-}
+
 
 .navigation-button {
     position: fixed;
@@ -122,24 +114,26 @@ ul {
 
 .wrapper p {
     font-size: 60px;
-    line-height: 30px;
     text-align: center;
-    line-height: 5px;
+    margin: 0;
+    padding:40px 0 5px 0;
 }
 
 .wrapper h1 {
     font-size: 60px;
-    line-height: 5px;
     font-weight: 700;
     text-align: center;
+    margin: 0;
+    
 }
 
 .wrapper h3 {
     font-size: 20px;
-    line-height: 60px;
     letter-spacing: 1px;
     text-align: left;
     font-weight: lighter;
+    margin:0;
+     padding:10px;
 }
 
 .features-page {
@@ -149,26 +143,27 @@ ul {
 }
 
 .contg {
-    width: 80%;
     margin: auto;
+    width: 80%;
 }
 
 .grid-container {
-    width: 80%;
     height: 300px;
-    overflow: visible;
+    width: 80%;
     position: absolute;
     margin-top: -150px;
     color: white;
     font-family: 'Raleway', sans-serif;
 }
-
-.grid-container img {
-    width: 70px;
-    height: 70px;
-    margin: 20px 0 0 140px;
+.grid-container i{
+    font-size: 35px;
+   
 }
-
+.glog{
+    margin: auto;
+    width: 30px;
+   padding-top: 20px;
+}
 .grid-container h2 {
     font-size: 20px;
     line-height: 24px;
@@ -184,7 +179,7 @@ ul {
 }
 
 .grid1 {
-    width: 350px;
+    width: 33.33%;
     height: 250px;
     background-color: #00bcd4;
     float: left;
@@ -192,7 +187,7 @@ ul {
 }
 
 .grid2 {
-    width: 370px;
+    width:33.33%;
     height: 300px;
     background-color: #9bd230;
     display: inline-block;
@@ -200,7 +195,7 @@ ul {
 }
 
 .grid3 {
-    width: 350px;
+    width:33.33%;
     height: 250px;
     background-color: #00bcd4;
     display: inline-block;
@@ -233,7 +228,6 @@ ul {
 .serviceleft h4 {
     color: #00bcd4;
     font-size: 20px;
-    line-height: 30px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -280,6 +274,7 @@ ul {
     position: fixed;
     right: -20px;
     bottom: -100px;
+     
 
 }
 
@@ -401,7 +396,7 @@ ul {
 }
 
 .creativegrid {
-    width: 90%;
+    width: 95%;
     margin: auto;
     height: 400px;
     position: relative;
@@ -552,13 +547,17 @@ ul {
 
 .gallery {
     width: 100%;
-    height: 205%;
+      overflow: auto;
     background-color: #f6f6f6;
     margin-top: 100px;
-    padding-top: 100px;
+    padding: 100px 0 10 0px 0;
+    box-sizing: border-box;
 
 }
-
+.banner img{
+display: inline-block;
+    padding: 20px;
+}
 .headergallery {
     width: 70%;
     margin: auto;
@@ -567,15 +566,14 @@ ul {
 
 .headergallery h4 {
     font-size: 20px;
-    line-height: 20px;
     font-family: 'open sans', sans-serif;
     font-weight: 400;
     color: #00bcd4;
 }
 
 .headergallery h1 {
+    margin: 0 ;
     font-size: 56px;
-    line-height: 10px;
     font-weight: 300;
     font-family: 'Raleway', sans-serif;
 }
@@ -588,9 +586,10 @@ ul {
     color: #a5a5a5;
 }
 
-.gallerynav {
-    width: 60%;
-    margin: 30px auto;
+.gallerynav ul{
+    margin: auto;
+    padding: 25px;
+    box-sizing: border-box;
 }
 
 .gallerynav ul li {
@@ -616,62 +615,58 @@ ul {
 .picsgallery {
     width: 97.5%;
     margin: auto;
+    overflow: auto;
 }
 
 .picleft {
-    width: 415px;
+    width: 32.5%;
     float: left;
+   
+    box-sizing: border-box;
 }
 
 .picmiddle {
-    width: 415px;
-    display: inline-block;
-    margin: -18px 0 0 25px;
+    width: 32.5%;
+   float: left;
+    margin: -18px 0 0 15px;
 }
 
 .picright {
-    width: 415px;
-    display: inline-block;
-    margin-left: 25px;
+    width:32.5%;
+    float:left;
+    margin:-12px 0 0 15px;
+  
 }
 
 .image1 img {
-    height: 500px;
-    width: 415px;
+ width: 100%;
 }
 
 .image2 img {
-    height: 400px;
-    width: 415px;
-    margin-top: 20px;
+width: 100%;
+    margin-top: 15px;
 }
 
-.image3 img {
-    height: 237px;
-    width: 415px;
-    margin-top: 20px;
-}
+
 
 .image4 img {
-    height: 237px;
-    width: 415px;
-    margin-top: 20px;
+   width: 100%;
+    margin-top: 15px;
+      height: 41%;
 }
 
 .image5 img {
-    height: 400px;
-    width: 415px;
+ width: 100%;
     margin-top: 20px;
 }
 
 .image6 img {
-    height: 500px;
-    width: 415px;
+width: 100%;
+    margin-top: 15px;
 }
 
 .image7 img {
-    height: 400px;
-    width: 415px;
+  width: 100%;
     margin-top: 20px;
 }
 
@@ -803,7 +798,7 @@ ul {
     font-size: 14px;
     color: white;
     font-family: 'open sans', sans-serif;
-    line-height: 60px;
+
 }
 
 .buttons {
@@ -913,15 +908,18 @@ ul {
     height: 40%;
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 410px 410px 410px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 10px;
 
 }
-
+.lists{
+    width: 300px;
+    margin: auto;
+}
 .pgrid1,
 .pgrid2,
 .pgrid3 {
-    width: 360px;
+    width:100%;
     border-radius: 20px;
     text-align: center;
     background-color: white;
@@ -1069,15 +1067,14 @@ ul {
 }
 
 .banner {
-    height: 20px;
-    width: 70%;
-    margin: 150px auto;
 
+position: relative;
+    top: 100px;
+    margin: auto;
+    width: 75%;
 }
 
-.gap {
-    margin-right: 30px;
-}
+
 
 .envatogrid {
     height: 85%;
